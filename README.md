@@ -1,35 +1,84 @@
-# eCommerce Sales Analysis Dashboard
+# 📊 E-Commerce Sales Analysis Dashboard
 
-This project analyzes e-commerce sales performance across regions, product categories, and monthly trends.  
-An interactive Power BI dashboard was created to visualize key insights and support business decision-making.
+This project analyzes e-commerce sales performance to uncover insights about **profit trends, sales by region, customer segments, product categories, and shipping efficiency**.  
+The analysis was done using **Python** for data cleaning and **Power BI** for data visualization.
 
-## 🛠 Tools Used
-- Python (Pandas, NumPy)
-- Power BI (Data Visualization)
-- Matplotlib (Basic Visualization)
-- Jupyter Notebook / VS Code
+---
 
-## 📊 Dashboard Highlights
-- Total Sales KPI
-- Sales by Region
-- Sales by Product Category
-- Monthly Sales Trend Line Chart
-- Slicers for dynamic filtering (Months, Regions, Products)
+## 🖼 Dashboard Preview
+
+![Dashboard Screenshot](images/dashboard.png)
+
+---
+
+## 🎯 Project Objectives
+- Identify **top performing** product categories and sub-categories.
+- Analyze **regional** and **state-wise** sales distribution.
+- Understand **customer segment** demand and profitability.
+- Compare **delivery times** and examine shipping impact on sales.
+- Provide actionable insights for **business decision making**.
+
+---
+
+## 🧰 Tools & Technologies Used
+| Tool / Library | Purpose |
+|---|---|
+| **Python (Pandas, NumPy)** | Data cleaning & preprocessing |
+| **Matplotlib** | Data exploration plots |
+| **Power BI** | Interactive dashboard creation |
+| **GitHub** | Project hosting & version control |
+
+---
+
+## 🗂 Project Structure
+Ecommerce-Sales-Analysis
+│
+├── data/
+│ └── ecommerce_sales.csv
+│
+├── analysis/
+│ └── Ecommerce_Sales_Analysis.ipynb
+│
+├── dashboard/
+│ └── Ecommerce_Sales_Dashboard.pbix
+│
+├── reports/
+│ └── Dashboard_Summary.pdf
+│
+└── README.md
+
+
+---
 
 ## 🔍 Key Insights
-- **Beauty** category has the highest sales.
-- **West** region contributes the most revenue.
-- Sales show peak months during **January** and **August**.
+- **Office Supplies** and **Technology** categories generated the highest sales.
+- Certain regions performed significantly better, indicating focused market opportunity.
+- **Standard class** shipping was most used, but **first class** showed better profit margins.
+- Customer segment **‘Consumer’** contributed the highest revenue volume.
 
-## 📂 Repository Contents
-| File | Description |
-|------|-------------|
-| `Ecommerce_Sales_Dashboard.pbix` | Power BI dashboard file |
-| `Ecommerce_Sales_Dashboard.pdf` | Exported PDF report for viewing |
-| `Ecommerce_Sales_Analysis.ipynb` | Python data cleaning + analysis notebook |
-| `ecommerce_sales_data.csv` | Sample dataset used |
-| `README.md` | Documentation (this file) |
+---
 
-## 📬 Contact
-If you’d like to connect or collaborate:  
-**LinkedIn:** *https://www.linkedin.com/in/chandinibhanuchandran/*
+## 💼 Business Impact
+This analysis helps stakeholders:
+- Optimize **inventory planning** based on demand pattern.
+- Focus **marketing efforts** in high-profit regions.
+- Improve **delivery strategies** by comparing shipping effectiveness.
+- Identify **high-value customer segments** for retention and targeted offers.
+
+---
+
+## 🚀 How to Use
+1. Open `.ipynb` file to view Python cleaning workflow.
+2. Open `.pbix` file in Power BI Desktop to interact with the dashboard.
+3. Refer to PDF report for summarized insights.
+
+---
+
+## 👤 Author
+**Chandini Chandran**  
+🔗 LinkedIn: https://www.linkedin.com/in/chandini-chandran  
+
+---
+
+## ⭐ If you found this helpful
+Don’t forget to **star** this repository 😊
