@@ -31,22 +31,23 @@ The analysis was done using **Python** for data cleaning and **Power BI** for da
 ---
 
 ## 🗂 Project Structure
-Ecommerce-Sales-Analysis
+
+Ecommerce-Sales-Analysis/
 │
 ├── data/
-│ └── ecommerce_sales.csv
+│ └── ecommerce_sales_data.csv # Raw dataset
 │
-├── analysis/
-│ └── Ecommerce_Sales_Analysis.ipynb
+├── notebooks/
+│ └── Ecommerce_Sales_Analysis.ipynb # Jupyter notebook with analysis
 │
 ├── dashboard/
-│ └── Ecommerce_Sales_Dashboard.pbix
+│ ├── Ecommerce_Sales_Dashboard.pbix # Power BI dashboard file
+│ └── Ecommerce_Sales_Dashboard.pdf # Exported PDF report
 │
-├── reports/
-│ └── Dashboard_Summary.pdf
+├── images/
+│ └── dashboard_preview.png # Screenshot of dashboard
 │
-└── README.md
-
+└── README.md # Project documentation
 
 ---
 
